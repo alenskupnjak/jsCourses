@@ -21,9 +21,10 @@ module.exports = {
             }
         }]
     },
+    // dolazi ako imamo dev server
     devServer: {
         contentBase: path.resolve(__dirname, 'public'),
-        publicPath: '/scripts/'
+        publicPath: '/scriptdev/'
     },
     devtool: 'source-map'
 }
