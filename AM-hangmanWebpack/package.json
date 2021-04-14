@@ -4,7 +4,6 @@
   "description": "",
   "main": "input.js",
   "scripts": {
-    "webpack": "webpack --watch",
     "webpack-server-dev": "webpack-dev-server --mode development",
     "webpack-build": "webpack --mode production",
     "buildBabel": "babel src/index.js --out-file public/scripts/bundle.js --presets env --watch"

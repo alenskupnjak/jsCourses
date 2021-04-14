@@ -1,4 +1,4 @@
-class Hangman {
+export default class Hangman {
     constructor(word, remainingGuesses) {
         this.word = word.toLowerCase().split('')
         this.remainingGuesses = remainingGuesses
@@ -59,4 +59,4 @@ class Hangman {
     }
 }
 
-export {Hangman as default}
+// export {Hangman as default}

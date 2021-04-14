@@ -3,6 +3,12 @@
 let notes = getSavedNotes()
 console.log(notes);
 
+console.log('notes-app ', pokus);
+
+
+
+
+
 const filters = {
     searchText: '',
     sortBy: 'byEdited'

@@ -1,5 +1,11 @@
 'use strict'
 
+let pokus = 'pokusni text'
+
+console.log('notes-function ', pokus);
+
+
+
 // Read existing notes from localStorage
 const getSavedNotes = () => {
     const notesJSON = localStorage.getItem('notes')
